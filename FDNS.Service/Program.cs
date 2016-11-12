@@ -12,6 +12,7 @@ namespace FDNS.Service
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
+                new FDNSService()
             };
             ServiceBase.Run(ServicesToRun);
         }
